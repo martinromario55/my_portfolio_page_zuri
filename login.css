@@ -1,0 +1,64 @@
+/* **************Login Main************ */
+main {
+  background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
+  padding-left: 20px;
+  height: 100vh;
+}
+
+.login-header h1 {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  color: dodgerblue;
+}
+
+/* **************Login Form************ */
+.login-form {
+  width: 40%;
+  margin: auto;
+}
+
+.form-label {
+  font-size: 20px;
+  font-weight: bold;
+  color: indigo;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  padding: 4px 10px;
+  box-shadow: 11px 5px 16px 3px rgba(71, 71, 71, 0.38);
+  -webkit-box-shadow: 11px 5px 16px 3px rgba(71, 71, 71, 0.38);
+  -moz-box-shadow: 11px 5px 16px 3px rgba(71, 71, 71, 0.38);
+}
+
+.login-form button {
+  width: 30%;
+  height: 30px;
+  margin-top: 15px;
+  margin-right: 15px;
+  font-size: large;
+  color: azure;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 11px 5px 16px 3px rgba(71, 71, 71, 0.38);
+  -webkit-box-shadow: 11px 5px 16px 3px rgba(71, 71, 71, 0.38);
+  -moz-box-shadow: 11px 5px 16px 3px rgba(71, 71, 71, 0.38);
+}
+
+.login-form button[type='submit'] {
+  background-color: dodgerblue;
+}
+
+.login-form button:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.login-form a:hover {
+  text-decoration: underline;
+}

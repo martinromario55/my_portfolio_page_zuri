@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="/register.css">
+    <title>Registration Page | Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/contact.html">Contact Me</a></li>
+          <li><a href="#">Register</a></li>
+          <li><a href="/login.html">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="register-header">
+        <h1>Registration</h1>
+      </div>
+      <div class="reg-form">
+        <form action="">
+          <label for="f-name">
+            <span class="form-label" id="fname">First Name:</span><br />
+            <input
+              type="text"
+              name="first_name"
+              id="f-name"
+              placeholder="Enter your First f-name" required
+            /> </label
+          ><br />
+
+          <label for="l-name">
+            <span class="form-label" id="lname">Last Name:</span><br />
+            <input
+              type="text"
+              name="last_name"
+              id="l-name"
+              placeholder="Enter your Last Name" required
+            /> </label
+          ><br />
+
+          <label for="phone_number">
+            <span class="form-label" id="phone">Phone Number:</span><br />
+            <input
+              type="text"
+              name="phoneNumber"
+              id="phone_number"
+              placeholder="+2567xxxxxxxxx" required
+            /> </label
+          ><br />
+          
+          <label for="gender">
+            <span class="form-label" id="gender-id">Gender:</span
+            ><br><select name="gender" id="gender">
+                <option selected="true" disabled="disabled">Select your Gender</option>
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+              <option value="others">Others</option></select
+            <br /> </label
+          ><br />
+
+          <label for="country">
+            <span class="form-label" id="country-id">Country:</span><br />
+            <input
+              type="text"
+              name="Country"
+              id="country"
+              placeholder="Enter your Country"
+            /> </label
+          ><br />
+
+          <label for="state">
+            <span class="form-label" id="state-id">State/Province:</span><br />
+            <input
+              type="text"
+              name="State"
+              id="state"
+              placeholder="Enter State or Province"
+            /> </label
+          ><br />
+          
+          <label for="email">
+            <span class="form-label" id="f-email">Email:</span><br />
+            <input
+              type="email"
+              name="email_address"
+              id="email"
+              placeholder="Enter your email address"
+              required
+            /> </label
+          ><br />
+
+          <label for="password">
+            <span class="form-label" id="password-id">Password:</span><br />
+            <input
+              type="password"
+              name="Password"
+              id="password"
+              placeholder="Enter your password"
+              required
+            /> </label
+          ><br />
+
+          <label for="c-password">
+            <span class="form-label" id="password-id">Confirm Password:</span><br />
+            <input
+              type="password"
+              name="Password"
+              id="c-password"
+              placeholder="Enter your password"
+              required
+            /> </label
+          ><br />
+          <button type="submit">Submit</button>
+          <button type="reset">Clear</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright ©2022</p>
+    </footer>
+  </body>
+</html>

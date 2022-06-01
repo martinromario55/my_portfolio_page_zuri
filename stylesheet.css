@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* **************Header************* */
+nav {
+  background-color: #eee;
+  color: #eee;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  padding: 5px;
+}
+
+nav ul li a {
+  color: navy;
+  font-size: bolder;
+}
+
+nav ul li,
+nav ul li a {
+  padding: 15px;
+}
+
+nav ul li:hover,
+nav ul li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* **************main************* */
+.heading {
+  display: flex;
+  height: 100vh;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+
+.welcome {
+  width: 50%;
+}
+
+.welcome h1 {
+  font-size: 45px;
+  font-weight: bolder;
+  padding: 15px;
+  color: #38f9d7;
+}
+
+.welcome h2 {
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 15px;
+  color: azure;
+  margin-top: 250px;
+}
+
+mark {
+  color: #f255b3;
+  padding: 5px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+/* **************About************* */
+.about-me {
+  height: 50vh;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  padding: 10px;
+}
+
+.about-me h2 {
+  text-align: center;
+  padding-top: 40px;
+  color: coral;
+}
+
+.about-me h3 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: chocolate;
+}
+
+/* **************Contact************ */
+.contact-me {
+  height: 100px;
+  background-image: linear-gradient(
+    to top,
+    #a7a6cb 0%,
+    #8989ba 52%,
+    #8989ba 100%
+  );
+  text-align: center;
+}
+
+.contact-me button {
+  width: 50%;
+  text-align: center;
+  margin: 40px auto;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  color: #f255b3;
+}
+
+.contact-me button:hover {
+  color: #f255b3;
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  cursor: pointer;
+}
+/* **************Footer************* */
+
+footer {
+  background-color: black;
+}
+
+footer p {
+  color: orange;
+  text-align: center;
+  padding: 50px;
+}
+
+footer:hover {
+  background-color: grey;
+}
